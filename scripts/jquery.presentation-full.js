@@ -88,7 +88,7 @@
         for(var i = 1; i < $presentation.numSlides+1; i++) {
           navPager += '<li><a href="#'+i+'">'+i+'</a></li>';
         }
-        $presentation.append(navPager);
+        //$presentation.append(navPager);
         
         if($presentation.currentHash) {
           $presentation.find('.'+$presentation.options.pagerClass).children(':nth-child('+$presentation.currentHash+')').addClass('current');

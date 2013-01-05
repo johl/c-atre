@@ -78,8 +78,8 @@ body {
 /* @group =pages */
 
   /* @group -slides */
-  #slides { top: 40px; }
-  .slide { padding: 100px; height: 880px; width: 1400px; overflow: hidden;}
+  #slides { position: absolute;  }
+  .slide { padding: 100px; overflow: hidden; position: absolute; width: 1100px; height: 500px;}
   .js .slide { position: absolute; }
   /* @end */
 
