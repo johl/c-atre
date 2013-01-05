@@ -99,7 +99,11 @@ body {
 .szene02b {background: url(../images/humbolduni_bg_pilot_micha.jpg) no-repeat;}
 .szene03 {background: url(../images/serverraum_bg.jpg) no-repeat;}
 /* IRC nicks */
+.irc {color: lightgreen;}
+.felix {color: white;}
 .Dotdean {color: red;}
 .osiris {color: gray;}
 .Tomyeah {color: yellow;}
 .SereR0kR {color: blue;}
+.queenkong {color:pink;}
+.Scaredy {color:magenta;}
