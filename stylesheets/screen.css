@@ -79,7 +79,7 @@ body {
 
   /* @group -slides */
   #slides { position: absolute;  }
-  .slide { padding: 100px; overflow: hidden; position: absolute; width: 1100px; height: 500px;}
+  .slide { padding: 100px; overflow: hidden; position: absolute; width: 1200px; height: 500px;}
   .js .slide { position: absolute; }
   /* @end */
 
@@ -96,7 +96,8 @@ body {
 	/* @end */
 
 /* @end */
-.szene02b {background: url(../images/humbolduni_bg_pilot_micha.jpg) no-repeat;}
+.slides.szene02b {padding: 100px; }
+.szene02b img {position: absolute; top: 0; left: 0; z-index: 0;}
 .szene03 {background: url(../images/serverraum_bg.jpg) no-repeat;}
 /* IRC nicks */
 .irc {color: lightgreen;}
@@ -104,6 +105,6 @@ body {
 .Dotdean {color: red;}
 .osiris {color: gray;}
 .Tomyeah {color: yellow;}
-.SereR0kR {color: blue;}
+.SereR0kR {color: dodgerblue;}
 .queenkong {color:pink;}
 .Scaredy {color:magenta;}
